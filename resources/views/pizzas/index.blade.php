@@ -47,7 +47,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @if($orders && count($orders) > 0)
+                            @if($pizzas && count($pizzas) > 0)
                             @foreach ($pizzas as $key => $pizza)
 
                             <tr>
